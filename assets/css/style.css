@@ -1,0 +1,132 @@
+.header {
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  } 
+  
+  .img1 {
+    display: flex;
+    justify-content: center;
+    scale: 1.05;
+  }
+  
+  .section-article {
+    width: 77%;
+    display: flex;
+    margin: 0 auto;
+    column-gap: 10%;
+    padding: 2.5rem;
+  }
+  
+  .section-article__subsection {
+      width: 77%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      column-gap: 11%;
+  }
+  
+  .section-article__parrafos {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  } 
+  
+  .section-article__img {
+    width: 399px;
+    height: 237px;
+  }
+  
+  .section-caracteristicas__subsection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    margin: 2rem 0;
+    background-color: #281c14;
+    font-weight: 300;
+    padding: .5rem;
+  }
+  
+  .section-caracteristicas__subsection h2 {
+    width: 100%;
+    font-size: 40px ;
+    text-align: center;
+    padding: 2rem;
+    background-color: #281c14;
+    margin: 2rem auto;  
+  }
+  
+  .section-caracteristicas__subsection div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 5rem;
+  }
+  
+  .section-caracteristicas__subsection p {
+    font-size: 25px ;
+    margin-top: 1.5rem;
+  }
+  
+  .section-caracteristicas__subsection i {
+    font-size: 45px;
+  }
+  
+  .section-caracteristicas__comun {
+    background-color: #281c14;
+  }
+  
+  .section-galeria__imgs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+    row-gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .section-galeria img {
+    width: 316px;
+    height: 202px;
+  }
+  
+  .seccion-pie__visita {
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #281c14;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 3rem;
+    margin: 2rem auto;
+  }
+  
+  .seccion-pie__comun {
+    color:white;
+    background-color: #281c14;
+
+  }
+    h1,h2,body{
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+      font-family: 'Raleway', sans-serif;
+      background-color: black;
+      color:white
+  }
+  
